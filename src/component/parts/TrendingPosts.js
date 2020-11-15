@@ -1,5 +1,11 @@
 import React from "react";
 
+import a1 from "../../upload/blog/home5/a1.jpg";
+import m2 from "../../upload/blog/home2/m2.jpg";
+import m3 from "../../upload/blog/home2/m3.jpg";
+import m6 from "../../upload/blog/home2/m6.jpg";
+import m7 from "../../upload/blog/home2/m7.jpg";
+
 export default function TrendingPosts() {
   return (
     <section className="top-home-section">
@@ -11,7 +17,7 @@ export default function TrendingPosts() {
           <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="news-post image-post">
-                <img src="upload/blog/home5/a1.jpg" alt="" />
+                <img src={a1} alt="" />
                 <div className="hover-post">
                   <a className="category-link" href="/">
                     Lifestyle
@@ -35,7 +41,7 @@ export default function TrendingPosts() {
                   <div className="news-post standard-post left-align">
                     <div className="image-holder">
                       <a href="single-post.html">
-                        <img src="upload/blog/home2/m2.jpg" alt="" />
+                        <img src={m2} alt="" />
                       </a>
                     </div>
                     <a className="text-link" href="/">
@@ -56,7 +62,7 @@ export default function TrendingPosts() {
                   <div className="news-post standard-post left-align">
                     <div className="image-holder">
                       <a href="single-post.html">
-                        <img src="upload/blog/home2/m3.jpg" alt="" />
+                        <img src={m3} alt="" />
                       </a>
                     </div>
                     <a className="text-link" href="/">
@@ -80,7 +86,7 @@ export default function TrendingPosts() {
                   <div className="news-post standard-post left-align">
                     <div className="image-holder">
                       <a href="single-post.html">
-                        <img src="upload/blog/home2/m6.jpg" alt="" />
+                        <img src={m6} alt="" />
                       </a>
                     </div>
                     <a className="text-link" href="/">
@@ -101,7 +107,7 @@ export default function TrendingPosts() {
                   <div className="news-post standard-post left-align">
                     <div className="image-holder">
                       <a href="single-post.html">
-                        <img src="upload/blog/home2/m7.jpg" alt="" />
+                        <img src={m7} alt="" />
                       </a>
                     </div>
                     <a className="text-link" href="/">

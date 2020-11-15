@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../parts/Header";
 import Breadcrumb from "../parts/Breadcrumb";
-import Posts from "../parts/Posts";
+import Post from "../parts/Post";
 import Sidebar from "../parts/Sidebar";
 import Footer from "../parts/Footer";
 
@@ -13,7 +13,7 @@ const Category = () => {
       <section className="blog-section">
         <div className="container">
           <div className="row">
-            <Posts />
+            <Post />
             <Sidebar />
           </div>
         </div>

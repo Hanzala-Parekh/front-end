@@ -1,5 +1,11 @@
 import React from "react";
 
+
+import a2 from "../../upload/blog/home5/a2.jpg";
+import a3 from "../../upload/blog/home5/a3.jpg";
+import a4 from "../../upload/blog/home5/a4.jpg";
+
+
 const FreshStories = () => {
   return (
     <section className="fresh-section on-trend-mode">
@@ -12,13 +18,15 @@ const FreshStories = () => {
             <div className="item">
               <div className="news-post article-post">
                 <div className="image-holder">
-                  <img src="upload/blog/home5/a2.jpg" alt="" />
+                  <img src={a2} alt="" />
                 </div>
                 <a className="text-link" href="/">
                   Travel
                 </a>
                 <h2>
-                  <a href="single-post.html">Vivamus vestibulum ntulla necante.</a>
+                  <a href="single-post.html">
+                    Vivamus vestibulum ntulla necante.
+                  </a>
                 </h2>
                 <ul className="post-tags">
                   <li>3 days ago</li>
@@ -30,8 +38,10 @@ const FreshStories = () => {
                   </li>
                 </ul>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra
-                  donec nec justo eget felis facilisis fermentum ...{" "}
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Donec odio. Quisque volutpat mattis eros. Nullam malesuada
+                  erat ut turpis. Suspendisse urna viverra donec nec justo eget
+                  felis facilisis fermentum ...{" "}
                 </p>
                 <a className="text-link" href="single-post.html">
                   Read More
@@ -42,13 +52,15 @@ const FreshStories = () => {
             <div className="item">
               <div className="news-post article-post">
                 <div className="image-holder">
-                  <img src="upload/blog/home5/a3.jpg" alt="" />
+                  <img src={a3} alt="" />
                 </div>
                 <a className="text-link" href="/">
                   Food
                 </a>
                 <h2>
-                  <a href="single-post.html">Praesent placerat risus quis eros.</a>
+                  <a href="single-post.html">
+                    Praesent placerat risus quis eros.
+                  </a>
                 </h2>
                 <ul className="post-tags">
                   <li>3 days ago</li>
@@ -60,8 +72,10 @@ const FreshStories = () => {
                   </li>
                 </ul>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra
-                  donec nec justo eget felis facilisis fermentum ...{" "}
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Donec odio. Quisque volutpat mattis eros. Nullam malesuada
+                  erat ut turpis. Suspendisse urna viverra donec nec justo eget
+                  felis facilisis fermentum ...{" "}
                 </p>
                 <a className="text-link" href="single-post.html">
                   Read More
@@ -72,13 +86,15 @@ const FreshStories = () => {
             <div className="item">
               <div className="news-post article-post">
                 <div className="image-holder">
-                  <img src="upload/blog/home5/a4.jpg" alt="" />
+                  <img src={a4} alt="" />
                 </div>
                 <a className="text-link" href="/">
                   Food
                 </a>
                 <h2>
-                  <a href="single-post.html">Morbi in sem quisdui placerat ornare.</a>
+                  <a href="single-post.html">
+                    Morbi in sem quisdui placerat ornare.
+                  </a>
                 </h2>
                 <ul className="post-tags">
                   <li>3 days ago</li>
@@ -90,8 +106,10 @@ const FreshStories = () => {
                   </li>
                 </ul>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra
-                  donec nec justo eget felis facilisis fermentum ...{" "}
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Donec odio. Quisque volutpat mattis eros. Nullam malesuada
+                  erat ut turpis. Suspendisse urna viverra donec nec justo eget
+                  felis facilisis fermentum ...{" "}
                 </p>
                 <a className="text-link" href="single-post.html">
                   Read More

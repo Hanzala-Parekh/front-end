@@ -1,5 +1,9 @@
 import React from "react";
 
+import sl1 from "../../upload/blog/home5/sl1.jpg";
+import s12 from "../../upload/blog/home5/s12.jpg";
+
+
 export default function Slider() {
   return (
     <section className="top-slider-section fullscreen-slider">
@@ -8,7 +12,7 @@ export default function Slider() {
           <div className="owl-carousel" data-num="1">
             <div className="item">
               <div className="news-post image-post">
-                <img src="upload/blog/home5/sl1.jpg" alt="" />
+                <img src={sl1} alt="" />
                 <div className="hover-post">
                   <div>
                     <a className="category-link" href="/">
@@ -16,7 +20,9 @@ export default function Slider() {
                     </a>
                   </div>
                   <h2>
-                    <a href="single-post.html">Integer vitae libero acrisus egestas.</a>
+                    <a href="single-post.html">
+                      Integer vitae libero acrisus egestas.
+                    </a>
                   </h2>
                   <ul className="post-tags">
                     <li>
@@ -36,7 +42,7 @@ export default function Slider() {
 
             <div className="item">
               <div className="news-post image-post">
-                <img src="upload/blog/home5/sl2.jpg" alt="" />
+                <img src={s12} alt="" />
                 <div className="hover-post">
                   <div>
                     <a className="category-link" href="/">
@@ -44,7 +50,9 @@ export default function Slider() {
                     </a>
                   </div>
                   <h2>
-                    <a href="single-post.html">Praesent placerat risus quis eros.</a>
+                    <a href="single-post.html">
+                      Praesent placerat risus quis eros.
+                    </a>
                   </h2>
                   <ul className="post-tags">
                     <li>
