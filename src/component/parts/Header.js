@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import logo from "../../images/logo.png";
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
         <div className="container">
           <div className="inner-logo-place">
             <a className="navbar-brand" href="index.html">
-              <img src="images/logo.png" alt="" />
+              <img src={logo} alt="" />
             </a>
           </div>
         </div>
